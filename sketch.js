@@ -16,12 +16,12 @@ function draw () {
   fill(mouseX, mouseY, mouseX);
   rect(0, 0, X, Y);
 
-  fill(mouseX / 3, mouseY +28, mouseX * 5);
+  fill(mouseX / 3, mouseY +8, mouseX * 5);
   rect(X, Y, X, Y);
 
   fill(mouseY / 2, mouseX * 6, mouseY / 5);
   rect(0, Y, X, Y);
-  
+
   fill(mouseX / 4, mouseX / 3, mouseY * 5);
   rect(X, 0, X, Y);
 }
